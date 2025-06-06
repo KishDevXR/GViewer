@@ -1,0 +1,12 @@
+/* Stylish login container */
+.login-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive and elegant box shadow */
+@media (max-width: 600px) {
+  .login-container .MuiBox-root {
+    padding: 1.5rem !important;
+  }
+}
